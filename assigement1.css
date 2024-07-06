@@ -1,0 +1,44 @@
+
+p {
+	color: #666;
+	font-size: 18px;
+}
+
+
+.intro {
+	background-color: #f0f0f0;
+	padding: 10px;
+}
+
+
+#main-heading {
+	color: #333;
+	font-size: 36px;
+}
+
+
+a[target="_blank"] {
+	color: #0099cc;
+}
+
+
+a:hover {
+	color: #0066cc;
+}
+
+
+p::first-letter {
+	font-size: 24px;
+	color: #999;
+}
+
+
+.list-item {
+	list-style: square;
+}
+
+
+.container p {
+	background-color: #e0e0e0;
+	padding: 10px;
+}
