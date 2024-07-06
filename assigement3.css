@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.serif {
+    font-family: Times New Roman, serif;
+}
+
+.sans-serif {
+    font-family: Helvetica, sans-serif;
+}
+
+.monospace {
+    font-family: Courier, monospace;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.medium {
+    font-size: 18px;
+}
+
+.large {
+    font-size: 24px;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.normal {
+    line-height: 1.2;
+}
+
+.compact {
+    line-height: 0.8;
+}
+
+.loose {
+    line-height: 1.5;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
