@@ -1,0 +1,37 @@
+
+.color-example {
+    color: red;
+  }
+  
+
+  .background-color-example {
+    background-color: blue;
+  }
+  
+ 
+  .gradient-example {
+    background-image: linear-gradient(to bottom, red, orange, yellow);
+    height: 200px; 
+  }
+  
+ 
+  .background-image-example {
+    background-image: url('image.jpg');
+    background-size: 100% 100%;
+    height: 200px; 
+  }
+
+  .background-repeat-example {
+    background-image: url('image.jpg');
+    background-repeat: repeat;
+    height: 200px; 
+  }
+  
+
+  .background-position-example {
+    background-image: url('image.jpg'); 
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    height: 200px; 
+    width: 300px; 
+  }
