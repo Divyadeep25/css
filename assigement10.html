@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <style>
+        .responsive-image {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <picture>
+        <source srcset="https://wallpapers.com/images/featured-full/detective-pikachu-9z3yp3akua2dnmeh.jpg" media="(min-width: 800px)">
+        <source srcset="https://i.etsystatic.com/48635898/r/il/aa1c83/5799230223/il_794xN.5799230223_d1ch.jpg" media="(min-width: 500px)">
+        <img src="https://i.etsystatic.com/25317796/r/il/36b490/3887674979/il_794xN.3887674979_ouxm.jpg" alt="Responsive Image" class="responsive-image">
+    </picture>
+</body>
+</html>

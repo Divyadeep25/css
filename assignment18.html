@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        :root {
+            --primary-color: lightblue;
+            --secondary-color: coral;
+            --font-size: 16px;
+            --padding: 10px;
+        }
+        .container {
+            padding: var(--padding);
+        }
+        .text {
+            color: var(--primary-color);
+            font-size: var(--font-size);
+        }
+        .text-secondary {
+            color: var(--secondary-color);
+        }
+        .button {
+            padding: var(--padding);
+            background-color: var(--primary-color);
+            border: none;
+            border-radius: 5px;
+            font-size: var(--font-size);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="text">This is some text using CSS variables.</p>
+        <p class="text text-secondary"> secondary text using CSS variables.</p>
+        <button class="button">Button</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            padding: 20px;
+        }
+        .box {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+            }
+            .box {
+                font-size: 14px;
+            }
+        }
+        @media (min-width: 601px) and (max-width: 900px) {
+            .container {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .box {
+                font-size: 16px;
+            }
+        }
+        @media (min-width: 901px) {
+            .container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            .box {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+</body>
+</html>

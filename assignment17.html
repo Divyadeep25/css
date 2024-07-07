@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Forms</title>
+    <style>
+        .form-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-field {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-field:focus {
+            border-color: blue;
+            outline: none;
+        }
+        .checkbox, .radio {
+            margin-right: 10px;
+        }
+        .form-submit {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: lightblue;
+            cursor: pointer;
+        }
+        .form-submit:hover {
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <input type="text" class="form-field" placeholder="Name">
+            <input type="email" class="form-field" placeholder="Email">
+            <select class="form-field">
+                <option value="">Select an option</option>
+                <option value="1">Red pill</option>
+                <option value="2">Blue pill</option>
+            </select>
+            <div>
+                <input type="checkbox" class="checkbox"> Ok
+                <input type="radio" class="radio" name="radio"> Not okay
+            </div>
+            <button type="submit" class="form-submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
